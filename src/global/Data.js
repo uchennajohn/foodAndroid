@@ -10,7 +10,7 @@ export const filterData = [
 
 export const restaurantData =[
     {restaurantName: "Mc Donalds", farAway:'21.2',
-    bussinessAddress:"22 Okroumi, Benin City", image:require("../../assets/chicken.jpeg"),
+    bussinessAddress:"22 Okroumi, Benin City", images:require("../../assets/chicken.jpeg"),
     averageReviews:4.9, numberOfReviews:272, coordinates: {lat:-23.1344444, lng: 23.445666},
     discount:10, deliveryTime:15,collectTime:5, foodType:"Burgers, Wraps, Milshake...",
     productData:[{name:"Hand cut chips", price:29.30, image:require("../../assets/food.jpeg")},
@@ -18,8 +18,8 @@ export const restaurantData =[
     {name:"Chicken Burger", price:50.80,image:require("../../assets/smallchops.jpeg")}],
     id:0},
 
-    {restaurantName: "Mc Donalds", farAway:'21.2',
-    bussinessAddress:"22 Okroumi, Benin City", image:require("../../assets/fruits.jpeg"),
+    {restaurantName: "Tantalizers", farAway:'21.2',
+    bussinessAddress:"22 Okroumi, Benin City", images:require("../../assets/fruits.jpeg"),
     averageReviews:4.9, numberOfReviews:272, coordinates: {lat:-23.1344444, lng: 23.445666},
     discount:10, deliveryTime:15,collectTime:5, foodType:"Burgers, Wraps, Milshake...",
     productData:[{name:"Hand cut chips", price:29.30, image:require("../../assets/food.jpeg")},
@@ -27,8 +27,8 @@ export const restaurantData =[
     {name:"Chicken Burger", price:50.80, image:require("../../assets/pizza.jpeg")}],
     id:1},
 
-    {restaurantName: "Mc Donalds", farAway:'21.2',
-    bussinessAddress:"22 Okroumi, Benin City", image:"",
+    {restaurantName: "Mr. Biggs", farAway:'21.2',
+    bussinessAddress:"22 Okroumi, Benin City", images:require("../../assets/fruits.jpeg"),
     averageReviews:4.9, numberOfReviews:272, coordinates: {lat:-23.1344444, lng: 23.445666},
     discount:10, deliveryTime:15,collectTime:5, foodType:"Burgers, Wraps, Milshake...",
     productData:[{name:"Hand cut chips", price:29.30, image:require("../../assets/food.jpeg")},
