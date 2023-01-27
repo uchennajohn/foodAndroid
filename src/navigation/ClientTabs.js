@@ -14,8 +14,8 @@ export default function RootClientTabs(){
     return(
             <ClientTabs.Navigator
             screenOptions={{
-                activeTintColor: colors.buttons
-
+                tabBarActiveTintColor: colors.buttons,
+                headerShown: false
             }}
             >
                 <ClientTabs.Screen 
@@ -90,6 +90,8 @@ export default function RootClientTabs(){
                     }
                 }
                 />  
+
+                
 
 
 

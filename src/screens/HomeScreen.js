@@ -11,14 +11,14 @@ import FoodCard from '../components/FoodCard'
 
 const SCREEN_WIDTH= Dimensions.get('window').width
 
-export default function HomeScreen() {
+export default function HomeScreen({navigation}) {
 
     const [delivery, setDelivery] = useState(true)
     const [indexCheck, setIndexCheck]= useState("0")
 
   return (
     <View style={styles.container}>
-        <Homeheader />
+        <Homeheader navigation={navigation}/>
             <ScrollView 
             stickyHeaderIndices={[0]}
             showsVerticalScrollIndicator={false}
@@ -38,6 +38,7 @@ export default function HomeScreen() {
                 <TouchableOpacity
                   onPress={()=>{
                     setDelivery(false)
+                    navigation.navigate("RestaurantMapScreen")
                 }}
                 >
                     <View style={{...styles.deliveryButton,backgroundColor: delivery? colors.grey5 : colors.buttons,marginLeft: 20, }}>
@@ -185,6 +186,7 @@ export default function HomeScreen() {
                 <Text  style={styles.headerText}>Resturants Available in Your Area</Text>
             </View>
             <View style={{width:SCREEN_WIDTH, paddingTop: 10}}>
+               
                 {
                     restaurantData.map(item=>(
                         <View key={item.id} style={{paddingBottom: 20}}>
@@ -202,9 +204,28 @@ export default function HomeScreen() {
                 }
 
             </View>
+
+            
             
 
         </ScrollView>
+        { delivery &&
+        <View style={styles.floatinButton}>
+            <TouchableOpacity
+            onPress={()=>{
+                navigation.navigate("RestaurantMapScreen")
+            }}
+            >
+                    <Icon 
+                    name='place'
+                    type='material'
+                    size={32}
+                    color = {colors.buttons}
+                    />
+                <Text style={{color: colors.grey2}}>Map</Text>
+            </TouchableOpacity>
+        </View>
+        }
     </View>
   )
 }
@@ -282,6 +303,17 @@ smallCardTextSelected:{
 smallCardText:{
     fontWeight: "bold",
     color: colors.grey2
+}, 
+floatinButton:{
+   position: "absolute",
+   bottom: 10,
+   right: 15,
+   elevation:10,
+   width: 60,
+   height: 60,
+   borderRadius: 30,
+   alignItems: "center",
+   backgroundColor:"white"
 }
 
 
