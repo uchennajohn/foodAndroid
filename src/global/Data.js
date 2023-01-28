@@ -10,7 +10,7 @@ export const filterData = [
 
 export const restaurantData =[
     {restaurantName: "Mc Donalds", farAway:'21.2',
-    bussinessAddress:"22 Okroumi, Benin City", images:require("../../assets/chicken.jpeg"),
+    bussinessAddress:"22 Okroumi, Benin City", images:'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg',
     averageReviews:4.9, numberOfReviews:272, coordinates: {lat:-23.1344444, lng: 23.445666},
     discount:10, deliveryTime:15,collectTime:5, foodType:"Burgers, Wraps, Milshake...",
     productData:[{name:"Hand cut chips", price:29.30, image:require("../../assets/food.jpeg")},
@@ -19,7 +19,7 @@ export const restaurantData =[
     id:0},
 
     {restaurantName: "Tantalizers", farAway:'21.2',
-    bussinessAddress:"22 Okroumi, Benin City", images:require("../../assets/fruits.jpeg"),
+    bussinessAddress:"22 Okroumi, Benin City", images:'https://littlesunnykitchen.com/wp-content/uploads/2022/03/Pepperoni-Pizza-1-730x1095.jpg',
     averageReviews:4.9, numberOfReviews:272, coordinates: {lat:-23.1344444, lng: 23.445666},
     discount:10, deliveryTime:15,collectTime:5, foodType:"Burgers, Wraps, Milshake...",
     productData:[{name:"Hand cut chips", price:29.30, image:require("../../assets/food.jpeg")},
