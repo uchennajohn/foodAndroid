@@ -44,8 +44,8 @@ export const filterData = [
 
 export const restaurantData = [
     {restaurantName:"Mc Donalds", farAway:"21.2",
-    businessAddress:"22 Bessie street, Cape Town",images:'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg',
-    averageReview:4.9,numberOfReview:272,coordinates : {lat: -26.1888612, lng: 28.246325} ,discount:10,deliveryTime:15,
+    bussinessAddress:"22 Bessie street, Cape Town",images:'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg',
+    averageReviews:4.9,numberOfReviews:272,coordinates : {lat: -26.1888612, lng: 28.246325} ,discount:10,deliveryTime:15,
     collectTime:5, foodType:"Burgers, Wraps,Milkshakes..." ,
     productData:[{name:"Hand cut chips", price:29.30,image:"https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg"},
     {name:"Big Mac", price:50.80,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png"},{name:"Chicken Burger",
@@ -53,9 +53,9 @@ export const restaurantData = [
       ],
     id:0},
     
-    {restaurantName:"KFC", farAway:"12.7",businessAddress:"22 Bessie street, Cape Town",
+    {restaurantName:"KFC", farAway:"12.7",bussinessAddress:"22 Bessie street, Cape Town",
     images:'https://bukasapics.s3.us-east-2.amazonaws.com/macdo.png',
-    averageReview:4.3, numberOfReview:306, coordinates : {lat: -26.1891648, lng: 28.2441808},
+    averageReviews:4.3, numberOfReviews:306, coordinates : {lat: -26.1891648, lng: 28.2441808},
     discount:20,deliveryTime:30,collectTime:10, foodType:"Chicken,Chicken wings... ",
     productData:[{name:"Hand cut chips", price:29.30,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png"},
     {name:"Big Mac", price:50.80,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png"},
@@ -63,9 +63,9 @@ export const restaurantData = [
         ],
     id:1},
     
-    {restaurantName:"Steers", farAway:"5",businessAddress:" 17 Olivia Rd, Johannesburg",
+    {restaurantName:"Steers", farAway:"5",bussinessAddress:" 17 Olivia Rd, Johannesburg",
     images:'https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png',
-     coordinates :{ lat: -26.1886781, lng: 28.244879}, averageReview: 4.9,numberOfReview: 1272,
+     coordinates :{ lat: -26.1886781, lng: 28.244879}, averageReviews: 4.9,numberOfReviews: 1272,
       discount:12, deliveryTime:25,collectTime:15,foodType:"Flame grilled beef Burgers",
      productData:[{name:"Hand cut chips", price:29.30,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png"},
       {name:"Big Mac", price:50.80,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png"},{name:"Chicken Burger",
@@ -73,9 +73,9 @@ export const restaurantData = [
         ],
      id:2},
     
-    {restaurantName:"Roman Pizza", farAway:"7",businessAddress:" 15 Atlas Rd, Kempton Park",
+    {restaurantName:"Roman Pizza", farAway:"7",bussinessAddress:" 15 Atlas Rd, Kempton Park",
     images:'https://bukasapics.s3.us-east-2.amazonaws.com/pizza6.png',
-    averageReview:4.3, numberOfReview:700, coordinates: {lat: -26.1845336, lng: 28.2481691},
+    averageReviews:4.3, numberOfReview:700, coordinates: {lat: -26.1845336, lng: 28.2481691},
     discount:null,deliveryTime:20,collectTime:10,foodType:"Chicken pizza, Vegetarian pizza...",
     productData:[{name:"Hand cut chips", price:29.30,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png"},
       {name:"Big Mac", price:50.80,image:"https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png"},{name:"Chicken Burger",

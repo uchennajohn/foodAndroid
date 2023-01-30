@@ -20,7 +20,7 @@ export default function SignInScreen({navigation}) {
 
 
        <View>
-        <Text style={{color: colors.buttons}}>Sign- IN</Text>
+        <Text style={{color: colors.buttons, fontWeight:"bold", fontSize: 20}}>Sign In</Text>
        </View>
  
        <View style={{alignItems:"center", marginTop: 10}}>

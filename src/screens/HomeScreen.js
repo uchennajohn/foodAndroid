@@ -142,7 +142,7 @@ export default function HomeScreen({navigation}) {
                     <View style={{marginRight: 5}}>
                         <FoodCard 
                         screenWidth={SCREEN_WIDTH* 0.8}
-                        images= {item.images}
+                        source= {item.images}
                         restaurantName ={item.restaurantName}
                         farAway={item.farAway}
                         businessAddress={item.bussinessAddress}
